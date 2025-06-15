@@ -21,6 +21,22 @@ This landing page features:
 - **Vite**
 - **Tailwind CSS**
 
+---
+## 📸 UI Screenshots (Desktop)
+
+Here are some snapshots of the Nike landing page UI I built using React and Tailwind CSS:
+
+| Screenshot 1 | Screenshot 2 |
+|--------------|--------------|
+| ![](./screenshots/Screenshot%2843%29.png) | ![](./screenshots/Screenshot%2844%29.png) |
+
+| Screenshot 3 | Screenshot 4 |
+|--------------|--------------|
+| ![](./screenshots/Screenshot%2845%29.png) | ![](./screenshots/Screenshot%2846%29.png) |
+
+| Screenshot 5 | Screenshot 6 |
+|--------------|--------------|
+| ![](./screenshots/Screenshot%2847%29.png) | ![](./screenshots/Screenshot%2848%29.png) |
 
 ---
 
