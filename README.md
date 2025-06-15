@@ -21,10 +21,6 @@ This landing page features:
 - **Vite**
 - **Tailwind CSS**
 
----
-
-
-> _Note: Replace the image paths above with your actual screenshot file names._
 
 ---
 
