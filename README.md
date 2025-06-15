@@ -28,15 +28,16 @@ Here are some snapshots of the Nike landing page UI I built using React and Tail
 
 | Screenshot 1 | Screenshot 2 |
 |--------------|--------------|
-| ![](./screenshots/Screenshot%2843%29.png) | ![](./screenshots/Screenshot%2844%29.png) |
+| ![](./screenshots/desktop1.png) | ![](./screenshots/desktop2.png) |
 
 | Screenshot 3 | Screenshot 4 |
 |--------------|--------------|
-| ![](./screenshots/Screenshot%2845%29.png) | ![](./screenshots/Screenshot%2846%29.png) |
+| ![](./screenshots/desktop3.png) | ![](./screenshots/desktop4.png) |
 
 | Screenshot 5 | Screenshot 6 |
 |--------------|--------------|
-| ![](./screenshots/Screenshot%2847%29.png) | ![](./screenshots/Screenshot%2848%29.png) |
+| ![](./screenshots/desktop5.png) | ![](./screenshots/desktop6.png) |
+
 
 ---
 
