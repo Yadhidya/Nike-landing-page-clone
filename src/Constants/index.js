@@ -1,124 +1,189 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import {
+  facebook,
+  instagram,
+  shieldTick,
+  support,
+  truckFast,
+  twitter,
+} from "../assets/icons";
+
+import {
+  bigShoe1,
+  bigShoe2,
+  bigShoe3,
+  customer1,
+  customer2,
+  shoe4,
+  shoe5,
+  shoe6,
+  shoe7,
+  thumbnailShoe1,
+  thumbnailShoe2,
+  thumbnailShoe3,
+} from "../assets/images";
+
+/* -------------------------------- NAVIGATION -------------------------------- */
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+  { id: "home", href: "#home", label: "Home" },
+  { id: "about", href: "#about-us", label: "About Us" },
+  { id: "products", href: "#products", label: "Products" },
+  { id: "contact", href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
-    {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
-    },
-    {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
-    },
-    {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
-    },
+/* -------------------------------- HERO SHOES -------------------------------- */
+
+export const heroShoes = [
+  {
+    id: 1,
+    thumbnail: thumbnailShoe1,
+    bigImage: bigShoe1,
+  },
+  {
+    id: 2,
+    thumbnail: thumbnailShoe2,
+    bigImage: bigShoe2,
+  },
+  {
+    id: 3,
+    thumbnail: thumbnailShoe3,
+    bigImage: bigShoe3,
+  },
 ];
+
+/* -------------------------------- STATISTICS -------------------------------- */
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+  { id: 1, value: "1K+", label: "Global Brands" },
+  { id: 2, value: "500+", label: "Retail Shops" },
+  { id: 3, value: "250K+", label: "Happy Customers" },
 ];
+
+/* -------------------------------- PRODUCTS -------------------------------- */
 
 export const products = [
-    {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
-    },
-    {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-    },
-    {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-    },
-    {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
-    },
+  {
+    id: 1,
+    imgURL: shoe4,
+    name: "Nike Air Jordan 1",
+    category: "Basketball",
+    price: 200.2,
+    rating: 4.7,
+    inStock: true,
+  },
+  {
+    id: 2,
+    imgURL: shoe5,
+    name: "Nike Air Jordan 10",
+    category: "Basketball",
+    price: 210.2,
+    rating: 4.6,
+    inStock: true,
+  },
+  {
+    id: 3,
+    imgURL: shoe6,
+    name: "Nike Air Jordan 100",
+    category: "Sports",
+    price: 220.2,
+    rating: 4.8,
+    inStock: true,
+  },
+  {
+    id: 4,
+    imgURL: shoe7,
+    name: "Nike Air Jordan 001",
+    category: "Running",
+    price: 230.2,
+    rating: 4.9,
+    inStock: true,
+  },
 ];
+
+/* -------------------------------- SERVICES -------------------------------- */
 
 export const services = [
-    {
-        imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
-    },
-    {
-        imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
-    },
-    {
-        imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
-    },
+  {
+    id: 1,
+    icon: truckFast,
+    title: "Free Shipping",
+    description:
+      "Enjoy seamless shopping with our complimentary worldwide shipping service.",
+  },
+  {
+    id: 2,
+    icon: shieldTick,
+    title: "Secure Payment",
+    description:
+      "Experience safe and encrypted transactions with trusted payment gateways.",
+  },
+  {
+    id: 3,
+    icon: support,
+    title: "24/7 Customer Support",
+    description:
+      "Our support team is available anytime to help with your orders and questions.",
+  },
 ];
+
+/* -------------------------------- REVIEWS -------------------------------- */
 
 export const reviews = [
-    {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-    },
-    {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+  {
+    id: 1,
+    imgURL: customer1,
+    name: "Morich Brown",
+    rating: 4.5,
+    feedback:
+      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+  },
+  {
+    id: 2,
+    imgURL: customer2,
+    name: "Lota Mongeskar",
+    rating: 4.5,
+    feedback:
+      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+  },
 ];
 
+/* -------------------------------- FOOTER -------------------------------- */
 
 export const footerLinks = [
-    {
-        title: "Products",
-        links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
-        ],
-    },
-    {
-        title: "Help",
-        links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
-        ],
-    },
-    {
-        title: "Get in touch",
-        links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
-        ],
-    },
+  {
+    title: "Products",
+    links: [
+      { name: "Air Force 1", href: "/" },
+      { name: "Air Max 1", href: "/" },
+      { name: "Air Jordan 1", href: "/" },
+      { name: "Air Force 2", href: "/" },
+      { name: "Nike Waffle Racer", href: "/" },
+      { name: "Nike Cortez", href: "/" },
+    ],
+  },
+  {
+    title: "Support",
+    links: [
+      { name: "About Us", href: "/" },
+      { name: "FAQs", href: "/" },
+      { name: "How It Works", href: "/" },
+      { name: "Privacy Policy", href: "/" },
+      { name: "Payment Policy", href: "/" },
+    ],
+  },
+  {
+    title: "Contact",
+    links: [
+      { name: "customer@nike.com", href: "mailto:customer@nike.com" },
+      { name: "+92 554 862 354", href: "tel:+92554862354" },
+    ],
+  },
 ];
 
+/* -------------------------------- SOCIAL MEDIA -------------------------------- */
+
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+  { id: 1, src: facebook, alt: "Facebook" },
+  { id: 2, src: twitter, alt: "Twitter" },
+  { id: 3, src: instagram, alt: "Instagram" },
 ];
